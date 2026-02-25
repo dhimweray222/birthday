@@ -1,13 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-romantic-pink: #FFD1DC;
-  --color-romantic-cream: #FFFDD0;
-  --color-romantic-white: #FAFAFA;
-  --color-romantic-text: #5C4033;
-  --color-rose-100: #FFE4E6;
-  --color-pink-50: #FDF2F8;
-  --color-amber-50: #FFFBEB;
+  --color-primary: #E8AEB7;
+  --color-secondary: #FFF6EC;
+  --color-accent: #C86B85;
+  --color-highlight: #F7D9C4;
+  --color-text-main: #4A3F3F;
 }
 
 @layer utilities {
@@ -21,14 +19,14 @@
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--color-amber-50);
+  background: var(--color-secondary);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-romantic-pink);
+  background: var(--color-primary);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #F4ABB8;
+  background: var(--color-accent);
 }
 
 html {
@@ -37,8 +35,8 @@ html {
 
 body {
   overflow-x: hidden;
-  background-color: var(--color-romantic-white);
-  color: var(--color-romantic-text);
+  background-color: var(--color-highlight);
+  color: var(--color-text-main);
 }
 
 .scroll-reveal {
