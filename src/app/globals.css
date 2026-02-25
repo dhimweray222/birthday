@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-romantic-pink: #FFD1DC;
+  --color-romantic-cream: #FFFDD0;
+  --color-romantic-white: #FAFAFA;
+  --color-romantic-text: #5C4033;
+  --color-rose-100: #FFE4E6;
+  --color-pink-50: #FDF2F8;
+  --color-amber-50: #FFFBEB;
+}
+
+@layer utilities {
+  .text-shadow-sm {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Custom Scrollbar for better aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-amber-50);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-romantic-pink);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F4ABB8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--color-romantic-white);
+  color: var(--color-romantic-text);
+}
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px) scale(0.95);
+  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Smooth ease-out */
+}
+
+.scroll-reveal.active {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
