@@ -41,34 +41,42 @@ export default function Closing() {
         ref={containerRef as React.RefObject<HTMLDivElement>}
         className="max-w-3xl mx-auto scroll-reveal"
       >
-        <h3 className="font-serif text-3xl md:text-4xl font-bold mb-16 text-text-main tracking-widest uppercase cursor-default">
-          Menuju 17 Maret 2026.
-        </h3>
+        <div className="mb-16">
+          <p className="text-accent italic font-serif text-xl mb-4">Menuju Hari Sakral Kita</p>
+          <h3 className="font-serif text-4xl md:text-5xl font-bold text-text-main tracking-wider cursor-default">
+            17 Maret 2026
+          </h3>
+          <div className="h-[1px] w-24 bg-accent/50 mx-auto mt-6"></div>
+        </div>
         
-        <div className="flex justify-center gap-2 md:gap-10 mb-20" id="countdown-container">
-          <div className="flex flex-col items-center">
-            <div className="w-16 h-16 md:w-24 md:h-24 bg-white/60 backdrop-blur-md rounded-2xl shadow-[0_8px_16px_rgba(251,207,232,0.6)] border border-white flex items-center justify-center text-2xl md:text-4xl font-bold font-serif text-text-main mb-4 transition-transform hover:scale-105">
-              {timeLeft.days.toString().padStart(2, '0')}
+        <div className="flex justify-center gap-4 md:gap-8 mb-20" id="countdown-container">
+          <div className="flex flex-col items-center group">
+            <div className="w-20 h-20 md:w-28 md:h-28 bg-white/50 backdrop-blur-xl rounded-[2rem] shadow-[0_10px_30px_rgba(200,107,133,0.1)] border border-white/80 flex items-center justify-center text-3xl md:text-5xl font-bold font-serif text-text-main mb-6 transition-all duration-500 group-hover:-translate-y-2 group-hover:shadow-[0_15px_40px_rgba(200,107,133,0.2)] relative overflow-hidden">
+              <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-accent/20 to-transparent"></div>
+              <span className="relative z-10">{timeLeft.days.toString().padStart(2, '0')}</span>
             </div>
-            <span className="text-[10px] md:text-sm font-semibold uppercase tracking-[0.2em] text-text-main/80">Hari</span>
+            <span className="text-[10px] md:text-sm font-semibold uppercase tracking-[0.2em] text-accent">Hari</span>
           </div>
-          <div className="flex flex-col items-center">
-            <div className="w-16 h-16 md:w-24 md:h-24 bg-white/60 backdrop-blur-md rounded-2xl shadow-[0_8px_16px_rgba(251,207,232,0.6)] border border-white flex items-center justify-center text-2xl md:text-4xl font-bold font-serif text-text-main mb-4 transition-transform hover:scale-105">
-              {timeLeft.hours.toString().padStart(2, '0')}
+          <div className="flex flex-col items-center group">
+            <div className="w-20 h-20 md:w-28 md:h-28 bg-white/50 backdrop-blur-xl rounded-[2rem] shadow-[0_10px_30px_rgba(200,107,133,0.1)] border border-white/80 flex items-center justify-center text-3xl md:text-5xl font-bold font-serif text-text-main mb-6 transition-all duration-500 group-hover:-translate-y-2 group-hover:shadow-[0_15px_40px_rgba(200,107,133,0.2)] relative overflow-hidden">
+              <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-accent/20 to-transparent"></div>
+              <span className="relative z-10">{timeLeft.hours.toString().padStart(2, '0')}</span>
             </div>
-            <span className="text-[10px] md:text-sm font-semibold uppercase tracking-[0.2em] text-text-main/80">Jam</span>
+            <span className="text-[10px] md:text-sm font-semibold uppercase tracking-[0.2em] text-accent">Jam</span>
           </div>
-          <div className="flex flex-col items-center">
-            <div className="w-16 h-16 md:w-24 md:h-24 bg-white/60 backdrop-blur-md rounded-2xl shadow-[0_8px_16px_rgba(251,207,232,0.6)] border border-white flex items-center justify-center text-2xl md:text-4xl font-bold font-serif text-text-main mb-4 transition-transform hover:scale-105">
-              {timeLeft.minutes.toString().padStart(2, '0')}
+          <div className="flex flex-col items-center group">
+            <div className="w-20 h-20 md:w-28 md:h-28 bg-white/50 backdrop-blur-xl rounded-[2rem] shadow-[0_10px_30px_rgba(200,107,133,0.1)] border border-white/80 flex items-center justify-center text-3xl md:text-5xl font-bold font-serif text-text-main mb-6 transition-all duration-500 group-hover:-translate-y-2 group-hover:shadow-[0_15px_40px_rgba(200,107,133,0.2)] relative overflow-hidden">
+              <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-accent/20 to-transparent"></div>
+              <span className="relative z-10">{timeLeft.minutes.toString().padStart(2, '0')}</span>
             </div>
-            <span className="text-[10px] md:text-sm font-semibold uppercase tracking-[0.2em] text-text-main/80">Menit</span>
+            <span className="text-[10px] md:text-sm font-semibold uppercase tracking-[0.2em] text-accent">Menit</span>
           </div>
-          <div className="flex flex-col items-center">
-            <div className="w-16 h-16 md:w-24 md:h-24 bg-white/60 backdrop-blur-md rounded-2xl shadow-[0_8px_16px_rgba(251,207,232,0.6)] border border-white flex items-center justify-center text-2xl md:text-4xl font-bold font-serif text-text-main mb-4 transition-transform hover:scale-105">
-              {timeLeft.seconds.toString().padStart(2, '0')}
+          <div className="flex flex-col items-center group">
+            <div className="w-20 h-20 md:w-28 md:h-28 bg-white/50 backdrop-blur-xl rounded-[2rem] shadow-[0_10px_30px_rgba(200,107,133,0.1)] border border-white/80 flex items-center justify-center text-3xl md:text-5xl font-bold font-serif text-text-main mb-6 transition-all duration-500 group-hover:-translate-y-2 group-hover:shadow-[0_15px_40px_rgba(200,107,133,0.2)] relative overflow-hidden">
+              <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-accent/20 to-transparent"></div>
+              <span className="relative z-10">{timeLeft.seconds.toString().padStart(2, '0')}</span>
             </div>
-            <span className="text-[10px] md:text-sm font-semibold uppercase tracking-[0.2em] text-text-main/80">Detik</span>
+            <span className="text-[10px] md:text-sm font-semibold uppercase tracking-[0.2em] text-accent">Detik</span>
           </div>
         </div>
         

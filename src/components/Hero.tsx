@@ -15,8 +15,8 @@ export default function Hero() {
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-primary/40 rounded-full blur-[100px] pointer-events-none mix-blend-multiply"></div>
 
       <div className="z-10 animate-[fadeIn_2s_ease-out_forwards] opacity-0">
-        {/* Floating Couple Image with glassmorphism border */}
-        <div className="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-[6px] border-white/60 shadow-xl mx-auto mb-10 transition-transform duration-700 hover:scale-[1.03] animate-[float_6s_ease-in-out_infinite]">
+        {/* Floating Couple Image with elegant soft gradient border */}
+        <div className="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-[8px] border-white/50 shadow-[0_0_40px_rgba(200,107,133,0.3)] mx-auto mb-10 transition-transform duration-1000 md:hover:scale-[1.05] animate-[float_6s_ease-in-out_infinite] relative">
           <img 
             src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
             alt="Us" 
@@ -25,10 +25,10 @@ export default function Hero() {
         </div>
 
         {/* Glowing Title */}
-        <div className="relative inline-block">
-          <div className="absolute inset-0 bg-white/40 blur-xl rounded-full pointer-events-none"></div>
-          <h1 className="relative z-10 text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-text-main mb-6 tracking-wide drop-shadow-sm leading-tight">
-            Happy Birthday, <br className="md:hidden" />My Love ❤️
+        <div className="relative inline-block mt-4">
+          <div className="absolute inset-0 bg-white/50 blur-2xl rounded-full pointer-events-none transform scale-150"></div>
+          <h1 className="relative z-10 text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-text-main mb-6 tracking-wide drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] leading-tight">
+            Happy Birthday, <br className="md:hidden" /><span className="text-accent italic">My Love</span> ❤️
           </h1>
         </div>
         
@@ -38,10 +38,10 @@ export default function Hero() {
 
         <button 
           onClick={scrollToJourney}
-          className="group relative px-10 py-4 bg-white/50 backdrop-blur-md border border-white/50 text-text-main font-semibold rounded-full shadow-lg overflow-hidden transition-all duration-300 hover:scale-110 active:scale-95 hover:shadow-primary/40"
+          className="group relative px-12 py-4 bg-white/70 backdrop-blur-xl border border-white/80 text-text-main font-semibold rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.06)] overflow-hidden transition-all duration-500 hover:scale-110 active:scale-95 hover:shadow-[0_15px_40px_rgba(200,107,133,0.2)] mt-4"
         >
-          <span className="relative z-10 tracking-widest uppercase text-sm">Klik untuk mulai</span>
-          <div className="absolute inset-0 bg-primary/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left ease-out duration-500"></div>
+          <span className="relative z-10 tracking-[0.2em] font-sans text-xs font-bold uppercase text-accent group-hover:text-text-main transition-colors duration-500">Mulai Perjalanan</span>
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-accent/30 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left ease-out duration-700"></div>
         </button>
       </div>
 
