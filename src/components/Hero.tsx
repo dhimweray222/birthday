@@ -9,10 +9,10 @@ export default function Hero() {
   };
 
   return (
-    <section id="hero" className="relative w-full min-h-screen flex flex-col items-center justify-center bg-transparent px-6 text-center">
+    <section id="hero" className="relative w-full min-h-screen flex flex-col items-center justify-center bg-transparent px-6 text-center overflow-hidden">
       {/* Background soft glowing blur shapes */}
-      <div className="absolute top-10 left-10 w-72 h-72 bg-white/40 rounded-full blur-[80px] pointer-events-none mix-blend-overlay"></div>
-      <div className="absolute bottom-10 right-10 w-96 h-96 bg-primary/40 rounded-full blur-[100px] pointer-events-none mix-blend-multiply"></div>
+      <div className="absolute top-10 -left-10 md:left-10 w-64 h-64 md:w-72 md:h-72 bg-white/40 rounded-full blur-[80px] pointer-events-none mix-blend-overlay"></div>
+      <div className="absolute bottom-10 -right-10 md:right-10 w-72 h-72 md:w-96 md:h-96 bg-primary/40 rounded-full blur-[100px] pointer-events-none mix-blend-multiply"></div>
 
       <div className="z-10 animate-[fadeIn_2s_ease-out_forwards] opacity-0">
         {/* Floating Couple Image with elegant soft gradient border */}
