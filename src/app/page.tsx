@@ -2,7 +2,6 @@ import Hero from '@/components/Hero';
 import Gallery from '@/components/Gallery';
 import ThingsILove from '@/components/ThingsILove';
 import Letter from '@/components/Letter';
-import SurpriseModal from '@/components/SurpriseModal';
 import Closing from '@/components/Closing';
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
       <Gallery />
       <ThingsILove />
       <Letter />
-      <SurpriseModal />
       <Closing />
     </main>
   );

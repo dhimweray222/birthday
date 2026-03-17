@@ -1,10 +1,10 @@
 'use client';
 
 export default function Hero() {
-  const scrollToReasons = () => {
-    const reasonsSection = document.getElementById('reasons');
-    if (reasonsSection) {
-      reasonsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const scrollToGallery = () => {
+    const gallerySection = document.getElementById('gallery');
+    if (gallerySection) {
+      gallerySection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
 
@@ -37,7 +37,7 @@ export default function Hero() {
         </p>
 
         <button 
-          onClick={scrollToReasons}
+          onClick={scrollToGallery}
           className="group relative px-12 py-4 bg-white/70 backdrop-blur-xl border border-white/80 text-text-main font-semibold rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.06)] overflow-hidden transition-all duration-500 hover:scale-110 active:scale-95 hover:shadow-[0_15px_40px_rgba(200,107,133,0.2)] mt-4"
         >
           <span className="relative z-10 tracking-[0.2em] font-sans text-xs font-bold uppercase text-accent group-hover:text-text-main transition-colors duration-500">Mulai Perjalanan</span>
