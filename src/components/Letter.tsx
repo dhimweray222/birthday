@@ -29,13 +29,15 @@ export default function Letter() {
         
         <div className="text-text-main/80 leading-[2.2] text-lg md:text-xl font-serif space-y-8 tracking-wide">
           <p className="first-letter:text-6xl first-letter:font-bold first-letter:text-accent first-letter:float-left first-letter:mr-3 first-letter:-mt-2">
-            Selamat ulang tahun untuk seseorang yang membuat hidupku jauh lebih berarti. Melalui surat kecil ini, aku hanya ingin mengingatkan betapa spesialnya kamu di mataku.
+            Selamat ulang tahun, Dina Friska Karamina! 🎉
+            Tanggal 17 Maret akhirnya datang juga, hari dimana dunia kedatangan satu manusia yang hobinya kadang baik, kadang nyebelin, tapi tetap dipertahankan juga sampai sekarang. 😆
           </p>
           <p>
-            Kamu lebih dari sekadar rupa yang rupawan, kamu adalah rumah tempatku kembali, ketenangan di tengah riuhnya dunia, dan penyemangat saat langkahku terasa berat.
+            Semoga di umur yang baru ini kamu makin dewasa (walaupun tipis-tipis), makin sabar menghadapi aku, dan semoga kebiasaan ngambeknya bisa mulai dikurangi sedikit demi sedikit. Tapi kalau tetap ngambek juga gapapa sih, sudah terbiasa juga. 🤭
           </p>
           <p>
-            Aku berharap di usiamu yang baru ini, setiap doamu diijabah, setiap sedihmu berubah menjadi tawa, dan setiap harapanmu menemukan jalannya. Ingatlah bahwa aku akan selalu ada di sini, di setiap langkahmu, mendukungmu sepenuh hati.
+            Yang penting sehat selalu, bahagia selalu, dan semoga semua yang kamu inginkan bisa tercapai.
+            Oh iya, karena yang ulang tahun biasanya harus berbagi kebahagiaan… traktirannya jangan lupa ya. Aku sudah siap membantu menghabiskan. 🎂😌
           </p>
           <div className="pt-16 pb-4">
             <h3 className="font-['Playfair_Display'] text-3xl text-accent italic opacity-90 drop-shadow-sm">

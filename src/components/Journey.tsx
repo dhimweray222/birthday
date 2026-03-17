@@ -32,7 +32,7 @@ export default function Journey() {
           <div className="overflow-hidden rounded-[2rem] rounded-tr-[4rem] mb-8 h-80 relative">
             <div className="absolute inset-0 bg-accent/10 mix-blend-overlay z-10 transition-opacity duration-700 group-hover:opacity-0"></div>
             <img 
-              src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              src="/foto/WhatsApp%20Image%202026-03-17%20at%2010.51.51%20(1).jpeg" 
               alt="First Meet" 
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-[1.15]" 
             />
@@ -54,7 +54,7 @@ export default function Journey() {
           <div className="overflow-hidden rounded-[2rem] rounded-tl-[4rem] mb-8 h-80 relative">
             <div className="absolute inset-0 bg-accent/10 mix-blend-overlay z-10 transition-opacity duration-700 group-hover:opacity-0"></div>
             <img 
-              src="https://images.unsplash.com/photo-1554162985-e2162ea6acaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              src="/foto/WhatsApp%20Image%202026-03-17%20at%2010.51.51%20(2).jpeg" 
               alt="First Date" 
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-[1.15]" 
             />
@@ -76,7 +76,7 @@ export default function Journey() {
           <div className="overflow-hidden rounded-[2rem] rounded-tr-[4rem] mb-8 h-80 relative">
             <div className="absolute inset-0 bg-accent/10 mix-blend-overlay z-10 transition-opacity duration-700 group-hover:opacity-0"></div>
             <img 
-              src="https://images.unsplash.com/photo-1494774157365-9e04c6720e47?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              src="/foto/WhatsApp%20Image%202026-03-17%20at%2010.51.51.jpeg" 
               alt="Best Memory" 
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-[1.15]" 
             />

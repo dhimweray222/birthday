@@ -1,10 +1,10 @@
 'use client';
 
 export default function Hero() {
-  const scrollToJourney = () => {
-    const journeySection = document.getElementById('journey');
-    if (journeySection) {
-      journeySection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const scrollToReasons = () => {
+    const reasonsSection = document.getElementById('reasons');
+    if (reasonsSection) {
+      reasonsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
 
@@ -18,7 +18,7 @@ export default function Hero() {
         {/* Floating Couple Image with elegant soft gradient border */}
         <div className="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-[8px] border-white/50 shadow-[0_0_40px_rgba(200,107,133,0.3)] mx-auto mb-10 transition-transform duration-1000 md:hover:scale-[1.05] animate-[float_6s_ease-in-out_infinite] relative">
           <img 
-            src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+            src="/foto/WhatsApp%20Image%202026-03-14%20at%2022.39.47.jpeg" 
             alt="Us" 
             className="w-full h-full object-cover" 
           />
@@ -37,7 +37,7 @@ export default function Hero() {
         </p>
 
         <button 
-          onClick={scrollToJourney}
+          onClick={scrollToReasons}
           className="group relative px-12 py-4 bg-white/70 backdrop-blur-xl border border-white/80 text-text-main font-semibold rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.06)] overflow-hidden transition-all duration-500 hover:scale-110 active:scale-95 hover:shadow-[0_15px_40px_rgba(200,107,133,0.2)] mt-4"
         >
           <span className="relative z-10 tracking-[0.2em] font-sans text-xs font-bold uppercase text-accent group-hover:text-text-main transition-colors duration-500">Mulai Perjalanan</span>

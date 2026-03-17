@@ -1,5 +1,5 @@
 import Hero from '@/components/Hero';
-import Journey from '@/components/Journey';
+import Gallery from '@/components/Gallery';
 import ThingsILove from '@/components/ThingsILove';
 import Letter from '@/components/Letter';
 import SurpriseModal from '@/components/SurpriseModal';
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="w-full relative bg-gradient-to-br from-primary via-secondary to-accent bg-fixed min-h-screen">
       <Hero />
-      <Journey />
+      <Gallery />
       <ThingsILove />
       <Letter />
       <SurpriseModal />
